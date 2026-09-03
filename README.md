@@ -20,9 +20,10 @@ python3 -m http.server 8000
 ## Editing
 
 - Content lives in `index.html`: About, Publications, Doctoral Research (`#projects`), Contact.
+- The contact form posts to [Formspree](https://formspree.io) (form `maeyjraq`); recipient,
+  spam filter and redirect are configured in the Formspree dashboard. Activate a new form by
+  submitting it once and clicking the confirmation email.
 - Search for `TODO:` — those mark placeholders to fill in:
-  - Contact form: create a free [Formspree](https://formspree.io) form and replace
-    `YOUR_FORM_ID` in the `<form action>` (GitHub Pages cannot run the old PHP handler).
   - "The changing surface of the world's roads": swap the arXiv link for the
     nature.com DOI once you have it.
   - Optional: add an ORCID and link it in the header / publications section.
