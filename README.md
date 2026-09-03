@@ -1,8 +1,8 @@
 # dkwakye.github.io
 
-Personal website of **Daniel Kwakye** — PhD researcher at ETH Zurich (knowledge graphs
-for wind energy) with a background in geodetic engineering and GIS.
-Live at <https://dkwakye.github.io/>.
+Personal website of **Daniel Kwakye** — PhD researcher on knowledge graphs for wind
+energy within the TWEED doctoral network (hosted at OST, matriculated at ETH Zurich),
+with a background in geodetic engineering and GIS. Live at <https://dkwakye.github.io/>.
 
 ## Stack
 
@@ -19,16 +19,17 @@ python3 -m http.server 8000
 
 ## Editing
 
-- Content lives in `index.html` (single page, anchored sections).
-- Content lives in `index.html`: About, Publications, Projects, Contact.
+- Content lives in `index.html`: About, Publications, Doctoral Research (`#projects`), Contact.
 - Search for `TODO:` — those mark placeholders to fill in:
   - Contact form: create a free [Formspree](https://formspree.io) form and replace
     `YOUR_FORM_ID` in the `<form action>` (GitHub Pages cannot run the old PHP handler).
   - "The changing surface of the world's roads": swap the arXiv link for the
     nature.com DOI once you have it.
   - Optional: add an ORCID and link it in the header / publications section.
-- Publications and the About text reflect the ETH Zurich role and the three papers on
-  Google Scholar (`user=494ShFEAAAAJ`) as of Sept 2026 — update as new work lands.
+  - Optional: replace the OST wind-energy group link in Contact with your own OST profile page.
+- About, Publications and Doctoral Research reflect the TWEED / OST / ETH Zurich role and
+  the three papers on Google Scholar (`user=494ShFEAAAAJ`) as of Sept 2026 — update as
+  new work lands.
 - `sitemap.xml` `lastmod` should be bumped on significant content changes.
 
 ## Vendor libraries
