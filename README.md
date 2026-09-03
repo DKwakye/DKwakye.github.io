@@ -20,16 +20,15 @@ python3 -m http.server 8000
 ## Editing
 
 - Content lives in `index.html` (single page, anchored sections).
+- Content lives in `index.html`: About, Publications, Projects, Contact.
 - Search for `TODO:` — those mark placeholders to fill in:
   - Contact form: create a free [Formspree](https://formspree.io) form and replace
     `YOUR_FORM_ID` in the `<form action>` (GitHub Pages cannot run the old PHP handler).
-  - Confirm the PhD start date in the Resume section (currently "2024 - Present").
   - "The changing surface of the world's roads": swap the arXiv link for the
     nature.com DOI once you have it.
-  - Optional: add `assets/docs/Daniel-Kwakye-CV.pdf` and uncomment the "Download CV" button.
   - Optional: add an ORCID and link it in the header / publications section.
-- Publications and the About/Resume text reflect the ETH Zurich role and the three
-  papers on Google Scholar (`user=494ShFEAAAAJ`) as of Sept 2026 — update as new work lands.
+- Publications and the About text reflect the ETH Zurich role and the three papers on
+  Google Scholar (`user=494ShFEAAAAJ`) as of Sept 2026 — update as new work lands.
 - `sitemap.xml` `lastmod` should be bumped on significant content changes.
 
 ## Vendor libraries
