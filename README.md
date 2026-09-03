@@ -35,6 +35,7 @@ python3 -m http.server 8000
 
 ## Vendor libraries
 
-Only the libraries actually used are kept: Bootstrap, Bootstrap Icons, Boxicons, AOS,
-Typed.js. Isotope, Swiper, GLightbox, Waypoints, PureCounter and the PHP email form were
-removed along with their init code in `assets/js/main.js`.
+Only the libraries actually used are kept: Bootstrap, Bootstrap Icons, Boxicons, Typed.js.
+Isotope, Swiper, GLightbox, Waypoints, PureCounter, AOS and the PHP email form were removed
+along with their init code in `assets/js/main.js`. AOS was dropped because its scroll
+animation could leave a section (the contact form) stuck invisible.

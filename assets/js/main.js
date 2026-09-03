@@ -5,7 +5,7 @@
 * License: https://bootstrapmade.com/license/
 *
 * Trimmed for this site: unused libraries (Isotope, Swiper, GLightbox, Waypoints,
-* PureCounter) and their init code have been removed.
+* PureCounter, AOS) and their init code have been removed.
 */
 (function() {
   "use strict";
@@ -145,18 +145,6 @@
       backDelay: 2000
     });
   }
-
-  /**
-   * Animation on scroll
-   */
-  window.addEventListener('load', () => {
-    AOS.init({
-      duration: 1000,
-      easing: 'ease-in-out',
-      once: true,
-      mirror: false
-    })
-  });
 
   /**
    * Footer year
